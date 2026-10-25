@@ -1,0 +1,51 @@
+{
+  "name": "gene-spafford-ai-mcp",
+  "version": "1.0.0",
+  "description": "Gene Spafford AI Model Context Protocol Server for Autonomous Computer Emergency Response, Malware Forensics, Digital Integrity Ethics & Multi-Decade Cyber Resilience Protocol",
+  "tools": [
+    {
+      "name": "audit_malware_propagation_vectors",
+      "description": "Deconstruct self-propagating malware binaries, automated worm infection vectors, and forensic memory snapshots during active breaches",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "binary_sha256": {
+            "type": "string"
+          },
+          "propagation_mechanism": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "binary_sha256"
+        ]
+      }
+    },
+    {
+      "name": "disburse_incident_response_bounty",
+      "description": "Trigger automated micro-escrow bounties for rapid incident containment, computing ethics scholarship, and academic cybersecurity lab funding",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
